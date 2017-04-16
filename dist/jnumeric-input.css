@@ -1,0 +1,62 @@
+.jnumeric-input-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+}
+.jnumeric-input {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 2px solid #a0aaff;
+  border-radius: 5px;
+  background-color: transparent;
+  text-align: center;
+}
+.jnumeric-input:focus,
+.jnumeric-input:active {
+  outline: none;
+}
+.jnumeric-input-btn {
+  position: absolute;
+  display: block;
+  background-color: #a0aaff;
+  width: 30px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  line-height: 28px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 10;
+}
+.jnumeric-input-btn:hover,
+.jnumeric-input-btn:active {
+  background-color: #afb8ff;
+}
+.jnumeric-input-btn-plus {
+  top: 0;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+}
+.jnumeric-input-btn-minus {
+  top: 0;
+  left: 0;
+  border-radius: 5px 0 0 5px;
+}
+.jnumeric-input::-webkit-outer-spin-button,
+.jnumeric-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.jnumeric-input {
+  -moz-appearance: textfield;
+}
